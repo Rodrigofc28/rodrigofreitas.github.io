@@ -118,14 +118,11 @@ ul{
     grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
   }
 
-  .habilidades-container {
-  display: flex;
-  flex-direction: row; /* horizontal */
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap; /* permite quebrar linha se necessário */
-  gap: 20px;
-}
+ .habilidades-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 
   .habilidade {
